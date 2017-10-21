@@ -1,0 +1,124 @@
+body {
+	height:100%;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	text-align:center;
+}
+.container {
+	background: linear-gradient(to bottom right, lightBlue, white);
+	border: 8px solid indigo;
+	word-spacing:10px;
+}
+header {
+	height: auto;
+	text-align:center;
+	background: linear-gradient(to bottom right, lightBlue, lightGreen);
+}
+.headerContainer {
+	display:flex;
+	justify-content: space-between;
+
+}
+.headerMiddle {
+	padding:10px;
+}
+.headerImg {
+	width:200px;
+	height:200px;
+
+}
+h1 {
+	color: blue;
+	margin:0;
+	padding-top:10px;
+}
+header p {
+	font-size:140%;
+	color: red;
+}
+nav p {
+
+}
+.functions {
+	font-size:20px;
+	border-radius:20%;
+	/*border:3px solid green;*/
+	background-color: green;
+	color: orange;
+	padding:10px;
+	display:inline;
+	font-weight:bold;
+	letter-spacing: 5px;
+
+}
+
+.gameOver {
+	font-size:200%;
+	color:red;
+	padding-top: 100px;
+}
+#crying {
+	width:300px;
+	height:300px;
+	margin:auto;
+}
+main {
+	/*height: 800px;*/
+	position:relative;
+	border-top:3px solid black;
+}
+
+
+nav p{
+	margin: 10px;
+	display:inline;
+	background-color:none;
+
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	border-radius:20%;
+
+	display:none;
+
+	background-color: rgb(67,64,224);
+	background-repeat:no-repeat;
+}
+img{
+	width:100%;
+	height:100%;
+}
+
+.boxGuard {
+	width: 100px;
+	height: 100px;
+	position:absolute;
+	background-color: red;
+	border-radius: 50%;
+
+
+}
+footer {
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding:10px 0;
+	text-align: center;
+}
+@media screen and (max-width:1000px) {
+	header {
+		font-size:150%;
+	}
+}
+.col1 {
+	color:green;
+}
+.col2 {
+	color:purple;
+}
+.col3{
+	color:red;
+}
